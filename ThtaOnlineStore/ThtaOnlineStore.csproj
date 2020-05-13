@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-ThtaOnlineStore-DE20EB18-85F9-40DC-9E78-6B977351B611</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3" />
+  </ItemGroup>
+
+</Project>
